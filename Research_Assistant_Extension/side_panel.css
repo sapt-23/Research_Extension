@@ -1,0 +1,79 @@
+body {
+    margin: 10;
+    padding: 10;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f4f6; /* light gray */
+    color: #2e2e2e; /* dark gray */
+}
+
+.conatainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.header {
+    padding-bottom: 8px;
+    border-bottom: 1px solid #d0d0d0;
+}
+
+.header h2 {
+    margin: 0;
+    color: #4b0082;
+    font-size: 1.3rem; /* Reduced size */
+    font-weight: 600;
+    font-family: 'Segoe UI Semibold', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3eb489; /* mint green */
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #2fa07d;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.notes textarea {
+    width: 100%;
+    height: 200px;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #c0c0c0;
+    resize: vertical;
+    font-size: 1rem;
+    font-family: inherit;
+    background-color: #fdfdfd;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+#results {
+    padding: 15px;
+    background-color: #eef2f7; /* very light blue-gray */
+    border-radius: 8px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    color: #1f1f1f;
+    font-size: 1rem;
+    white-space: pre-wrap;
+}
